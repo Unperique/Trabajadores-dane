@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del administrador</title>
+    <!-- Se agrega la hoja de estilos de Bootstrap para el diseño -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Se agrega la hoja de estilos personalizada para el diseño -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body> 
+  <!-- Se agrega la barra de navegación con los enlaces al inicio, registrar trabajadores, trabajadores y salir -->
+  <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="menuAdmin.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admin.php">Registrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tablaTrabajadores.php">Trabajadores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Salir</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Se agrega el logotipo de Colombia DANE -->
+  <center>
+    <img src="IMG/Colombia_Dane_logo.svg.png" alt="Logo de Colombia DANE" height="150px" width="500px">
+  </center>
+  
+  <!-- Se agrega el logotipo de DANE -->
+  <img src="IMG/logo-DANE.png" alt="Logo de DANE" class="bottom-center" width="300px">
+
+  <!-- Se agregan los scripts de Bootstrap y los scripts personalizados -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="javascript/scriptb.js"></script>
+  <script src="javascript/validate.js"></script>
+</body>
+</html>
